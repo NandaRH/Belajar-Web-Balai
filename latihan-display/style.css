@@ -1,0 +1,77 @@
+html {
+  scroll-behavior:smooth;
+}
+body {
+  background:url(HS-ST-1.png);
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.kotak2 {
+  max-width: 900px;        
+  margin: 0px auto;       
+  background: #914d4d;       
+  padding: 10px;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.kotak {
+  max-width: 900px;        
+  margin: 0px auto;       
+  background: #f30000;       
+  padding: 10px; 
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.container {
+  max-width: 800px;        
+  margin: 0px auto;       
+  background: #00ff2a;       
+  padding: 10px; 
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.header ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  text-align: left; 
+  
+}
+
+
+.header ul li {
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.header ul li a {
+  text-decoration: none; 
+  color: rgb(0, 0, 0);  
+}
+
+
+.judul{text-align: center; 
+    padding: 0px;
+    margin: 10px;
+}
+
+h1{ background-color: #f30000;
+}
+
+img {
+  display: block;     
+  margin: 0 auto;     
+  width: 500px;       
+  height: auto;  
+}

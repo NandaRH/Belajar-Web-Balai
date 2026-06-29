@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+
+header {
+  background-color: #4CAF50; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 45px 5px;
+}
+
+header p a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.name {
+  display: flex;
+  align-items:center;
+}
+
+.intro {
+  display: flex;
+  align-items: top;
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+.profile-pic {
+  width: 310px;
+  height: 420px;
+  background:url(NandaCrop.jpg);
+  background-size: cover;
+  margin-right: 70px;
+}
+
+.intro-text h2 {
+  margin: 0 0 10px;
+}
+
+.intro-text p {
+  margin: 0;
+}
+
+
+.contact {
+  background: #fff;
+  padding: 30px;
+}
+
+.contact h3 {
+  margin-top: 0;
+}
+
+
+footer {
+  background: #333;
+  color: white;
+  text-align :center;
+  padding: 10px;
+  font-size: 14px;
+}

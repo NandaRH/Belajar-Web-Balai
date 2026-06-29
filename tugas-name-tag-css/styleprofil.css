@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  background-image: url(Foto/Hexa\ Blue.png);
+  background-size: contain;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tombol Back */
+.back-btn {
+  display: inline-block;
+  background: #0097a7;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+
+
+.cv-container {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Sidebar kiri */
+.cv-left {
+  background: #0097a7;
+  color: white;
+  padding: 30px 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.cv-left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid white;
+}
+
+.cv-left h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid rgba(255,255,255,0.4);
+  padding-bottom: 5px;
+}
+
+.skills {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Konten kanan */
+.cv-right {
+  padding: 30px;
+  width: 70%;
+  color: #333;
+}
+
+.cv-right h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #111;
+}
+
+.cv-right p a{
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.cv-right p img {
+    width: 20px;
+}
+
+
+.cv-right h2 {
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #0097a7;
+  border-bottom: 2px solid #0097a7;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.cv-right p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.experience, .education {
+  margin-top: 20px;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.job span {
+  font-size: 13px;
+  color: #777;
+}
